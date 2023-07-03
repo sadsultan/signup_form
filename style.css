@@ -66,3 +66,13 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+
+.footer {
+    position: absolute;
+    padding: 5px 0;
+    bottom: 0;
+    background-color: lightgray;
+    width: 60vw;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.763);
+}
