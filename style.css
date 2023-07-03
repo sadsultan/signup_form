@@ -41,8 +41,7 @@ body{
     transition: all 0.3s ease-out;
     font-size: 5vh;
     width: 40vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .logo2 {  
