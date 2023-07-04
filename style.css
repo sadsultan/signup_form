@@ -79,9 +79,8 @@ body{
     width: 60vw;
     padding: 0;
     margin: 0;
-    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: inset 0 4px 0 lightgray, inset 0 -4px 0 lightgray;
+    box-shadow: 0 5px 5px rgba(128, 128, 128, 0.842), 0 -2px 0 lightgray;
     transition: all 0.3s ease-out;
     display: flex;
     flex-direction: column;
