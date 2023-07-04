@@ -62,7 +62,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer {
@@ -81,4 +81,9 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: inset 0 4px 0 lightgray, inset 0 -4px 0 lightgray;
+    transition: all 0.3s ease-out;
+}
+
+.animation {
+    transform: translate(0, -5vh);
 }
