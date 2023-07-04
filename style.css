@@ -87,3 +87,35 @@ body{
 .animation {
     transform: translate(0, -5vh);
 }
+
+.signup-form {
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.prompts {
+    font-size: 1.8vh;
+    font-weight: 500;
+    padding: 2vh 3vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.prompts > * {
+    margin: 0;
+    padding: 0;
+}
+
+.prompts > input {
+    margin-top: 1px;
+    margin-bottom: 2vh;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: lightgray 1px solid;
+    padding: 0 10px;
+    font-size: 1.5vh;
+    box-shadow: inset 1px 1px 1px lightgray;
+}
