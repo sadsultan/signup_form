@@ -8,6 +8,10 @@ body{
     margin: 0;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -55,6 +59,17 @@ body{
 .logo > img {
     max-width: 5vw;
     border-radius: 5vw;
+}
+
+.footer2 {
+    position: absolute;
+    padding: 4px auto;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.footer2 > p> a {
+    color: antiquewhite;
 }
 
 .form {
@@ -136,8 +151,8 @@ body{
     border-radius: 5px;
     border: lightgray 1px solid;
     background-color: lightgray;
-    font-size: 1.5vh;
-    font-weight: 500;
+    font-size: 2vh;
+    color: rgb(72, 72, 72);
     transition: all 0.3s ease-out;
     box-shadow: inset 1px 1px 1px lightgray;
 }
@@ -158,4 +173,27 @@ body{
 .welcome-message > h2 {
     margin-top: 3vh;
     margin-bottom: 1vh;
+}
+
+.alternate {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 60vw;
+}
+
+.alternate > p {
+    padding: 0;
+    margin: 2vh 3vw; 
+    font-size: 1.6vh;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.alternate > p> button {
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.841);
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.3vh;
 }
